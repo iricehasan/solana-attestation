@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "node --loader ts-node/esm src/attestation.ts"
+    "start": "node --loader ts-node/esm src/attestation.ts",
+    "create_txn": "node --loader ts-node/esm src/create_account_txn_single.ts",
+    "create_txns": "node --loader ts-node/esm src/create_account_txns.ts"
   },
   "keywords": [],
   "author": "",
